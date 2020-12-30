@@ -8,9 +8,19 @@
 	<script src="fitty.min.js"></script>
 	<style>
 		* {
+			box-sizing: border-box;
 			font-family: 'Metropolis', sans-serif;
 		}
+		html {
+			margin: 0;
+			padding: 0;
+			background-color: #f0e5d6;
+		}
 		body {
+			margin: 20px 20px;
+			padding: 20px 20px;
+			box-shadow: 12px 12px 0 #7a9c91;
+			border-radius: 40px;
 			text-align: center;
 			background-color: #ca6a8d;
 			color: #f0e5d6;
@@ -25,8 +35,10 @@
 	</style>
 </head>
 <body>
-	<h1>YES!!!</h1>
-	<h2>Thanks be to Dolly Parton</h2>
+	<div class="card">		
+		<h1>YES!!!</h1>
+		<h2>Thanks be to Dolly Parton</h2>
+	</div>
 	<script>
 		fitty('h1');
 	</script>
